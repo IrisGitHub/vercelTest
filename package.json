@@ -1,0 +1,25 @@
+{
+  "name": "verceltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vercel"
+  ],
+  "author": "Iris",
+  "license": "LGPL-2.1-only",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^4.0.7",
+    "@vercel/node": "^3.0.14",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-register": "^6.26.0"
+  }
+}
